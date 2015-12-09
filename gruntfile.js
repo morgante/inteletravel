@@ -14,16 +14,16 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 		less: {
-			dev: {
-				options: {
-					paths: ['css'],
-					compress: false,
-					ieCompat: true,
-				},
-				files: {
-					'assets/css/styles.css': 'assets/less/colors.less'
-				}
-			},
+			// dev: {
+			// 	options: {
+			// 		paths: ['css'],
+			// 		compress: false,
+			// 		ieCompat: true,
+			// 	},
+			// 	files: {
+			// 		'assets/css/styles.css': 'assets/less/colors.less'
+			// 	}
+			// },
 			prod: {
 				options: {
 					paths: ['css'],
